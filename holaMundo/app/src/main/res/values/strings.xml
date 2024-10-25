@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">holaMundo</string>
+    <strinng name="titulo">Mi primer Aplicacion movil</strinng>
+    <strinng name="tunombre">¿Cual es tu nombre?</strinng>
+    <strinng name="pulsar">Pulsame</strinng>
+    <strinng name="limpiar">Limpiar</strinng>
+    <strinng name="cerrar">Cerrar</strinng>
+</resources>
