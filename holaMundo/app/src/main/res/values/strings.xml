@@ -1,8 +1,25 @@
 <resources>
     <string name="app_name">holaMundo</string>
-    <strinng name="titulo">Mi primer Aplicacion movil</strinng>
-    <strinng name="tunombre">¿Cual es tu nombre?</strinng>
-    <strinng name="pulsar">Pulsame</strinng>
-    <strinng name="limpiar">Limpiar</strinng>
-    <strinng name="cerrar">Cerrar</strinng>
+    <string name="titulo">Mi primer Aplicacion movil</string>
+    <string name="tunombre">¿Cual es tu nombre?</string>
+    <string name="pulsar">Pulsame</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="miempresa">Servicios Informaticos</string>
+    <string name="alumno">Paola Meave Valdez</string>
+    <string name="matricula">22050575</string>
+    <string name="materia">Desarrollo Móvil</string>
+    <string name="desImaCot">Logo Toyota</string>
+    <string name="cel">Celcius a Fahrenheit</string>
+    <string name="far">Fanhrenheit a Celcius</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="btnCerrar">Cerrar</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="res">Resultados</string>
+    <string name="lblGrados">Grados</string>
+    <string name="lblCantidad">Capturar La cantidad de Grados</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="resu">Resultado</string>
 </resources>
+
