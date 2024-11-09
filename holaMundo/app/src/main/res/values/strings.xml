@@ -21,5 +21,16 @@
     <string name="altura">Altura</string>
     <string name="peso">Peso</string>
     <string name="resu">Resultado</string>
+    <string-array name="array_conversiones">
+        <item> Peso Mexicano - DOLAR AMERICAON </item>
+        <item> Peso Mexicano - Dolar canadience </item>
+        <item> Peso Mexicano - Euro </item>
+        <item> Dolar americano - Pesos Mexicano </item>
+        <item> Dolar canadience - Peso Mexicano </item>
+        <item> Euro - Peso Mexicano </item>
+    </string-array>
+<string name="dolara">19.75</string>
+    <string name="dolarc">14.75</string>
+    <string name="euro">22.02</string>
 </resources>
 

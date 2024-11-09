@@ -14,16 +14,6 @@
         android:orientation="horizontal"
         android:paddingTop="15dp">
 
-        <!-- Label TextView for degrees -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:id="@+id/lblGrados"
-            android:textSize="18sp"
-            android:text="@string/lblGrados"
-            android:layout_marginStart="10dp" />
-
-        <!-- Input EditText for temperature -->
         <EditText
             android:id="@+id/txtCantidad"
             android:layout_width="match_parent"
@@ -36,14 +26,13 @@
             android:inputType="numberDecimal" />
     </LinearLayout>
 
-    <!-- Vertical LinearLayout for RadioGroup and Result -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginBottom="15dp">
 
-        <!-- RadioGroup for temperature unit selection -->
         <RadioGroup
             android:id="@+id/radioGroup"
             android:layout_width="wrap_content"
@@ -52,69 +41,81 @@
             android:layout_marginTop="16dp"
             android:orientation="vertical">
 
-            <RadioButton
-                android:id="@+id/rdbCel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cel"
-                android:textSize="20sp"
-                android:checked="true" />
-
-            <RadioButton
-                android:id="@+id/rbdFar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/far"
-                android:textSize="20sp" />
         </RadioGroup>
 
-        <!-- TextView for displaying result -->
-        <TextView
-            android:id="@+id/txtRes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:text="@string/res"
-            android:textSize="25sp"
-            android:layout_marginStart="10dp" />
     </LinearLayout>
 
-    <!-- Vertical LinearLayout for Buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end|bottom"
         android:orientation="vertical"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="178dp">
 
-        <!-- Button for calculating -->
-        <Button
-            android:id="@+id/btnCalcular"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/txtRes"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:text="@string/btnCalcular" />
+            android:layout_marginTop="20dp"
+            android:text="@string/res"
+            android:textSize="25sp" />
 
-        <!-- Button for clearing input -->
-        <Button
-            android:id="@+id/btnLimpiar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:text="@string/btnLimpiar" />
 
-        <!-- Button for closing activity -->
-        <Button
-            android:id="@+id/btnCerrar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:text="@string/btnCerrar" />
     </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/rbdFar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/far"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <RadioButton
+        android:id="@+id/rdbCel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/cel"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/lblGrados"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/lblGrados"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalcular"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLimpiar"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCerrar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="471dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
