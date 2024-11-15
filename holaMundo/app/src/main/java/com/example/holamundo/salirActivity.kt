@@ -15,6 +15,12 @@ class salirActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+
         }
+        btnCerrar.setOnClickListener {
+            Toast.makeText(this, "Cerrando la aplicación", Toast.LENGTH_SHORT).show()
+            finishAffinity()
+        }
+
     }
 }
