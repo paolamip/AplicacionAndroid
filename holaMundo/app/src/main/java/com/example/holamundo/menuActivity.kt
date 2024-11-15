@@ -4,11 +4,18 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class menuActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+    private lateinit var crvHola : CardView
+    private lateinit var crvImc : CardView
+    private lateinit var crvConvertidor : CardView
+    private lateinit var crvMoneda : CardView
+    private lateinit var crvCotizacion : CardView
+    private lateinit var crvSalir : CardView
+    override fun onCreate(savedInstanceState: Bundle?) { paola meave *
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_menu2)
@@ -18,7 +25,15 @@ class menuActivity : AppCompatActivity() {
             insets
         }
     }
-    fun iniciarComponente()
+    fun iniciarComponente(){
+        crvHola = findViewById(R.id.crvHola) as CardView
+        crvImc = findViewById(R.id.crvImc) as CardView
+        crvConvertidor = findViewById(R.id.crvConvertidor) as CardView
+        crvMoneda = findViewById(R.id.crvMoneda) as CardView
+        crvCotizacion = findViewById(R.id.crvCotizacion) as CardView
+        crvSalir = findViewById(R.id.crvSalir)
+
+    }
 
     fun eventosClic(){
         crvHola.setOnClickListener(View.OnClickListener {
